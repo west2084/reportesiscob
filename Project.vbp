@@ -1,0 +1,64 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\WINDOWS\SYSTEM32\STDOLE2.TLB#OLE Automation
+Object={F9043C88-F6F2-101A-A3C9-08002B2F49FB}#1.2#0; COMDLG32.OCX
+Object={0BA686C6-F7D3-101A-993E-0000C0EF6F5E}#1.0#0; THREED32.OCX
+Object={C932BA88-4374-101B-A56C-00AA003668DC}#1.1#0; msmask32.ocx
+Object={B9D22273-0C24-101B-AEBD-04021C009402}#1.0#0; KEYSTA32.OCX
+Form=FrmPorta.frm
+Module=API3270; API3270.bas
+Module=GLOBCON; GLOBCON.bas
+Module=COMCON; COMCON.bas
+Module=MenCon; MenCon.bas
+Module=RUTCOB; RUTCOB.bas
+Module=LGP; LGP.bas
+Form=frmDesco.frm
+Form=FrmCreaDisk.frm
+Form=frmActVer.frm
+Form=FrmCreaBD.frm
+Form=EEAMX009.frm
+Form=FrmDatCiz.frm
+Form=FrmTransf.frm
+Form=FormBus.frm
+Form=FormCade.frm
+Form=FormVisor.frm
+Form=FrmLlenaTablas.frm
+Form=frmLogTso.frm
+Form=frmBarMsj.frm
+Startup="FrmPorta"
+IconForm="FrmPorta"
+HelpFile=""
+ExeName32="REPORTE.exe"
+Name="Proyect1"
+Title="REPORTE"
+VersionCompanyName="IMSS"
+MajorVer=6
+MinorVer=00
+RevisionVer=0
+Command32 = ""
+HelpContextID = "0"
+CompatibleMode = "0"
+AutoIncrementVer = 0
+ServerSupportFiles = 0
+CompilationType = 0
+OptimizationType = 0
+FavorPentiumPro(tm) = 0
+CodeViewDebugInfo = 0
+NoAliasing = 0
+BoundsCheck = 0
+OverflowCheck = -1
+FlPointCheck = 0
+FDIVCheck = 0
+UnroundedFP = 0
+StartMode = 0
+Unattended = 0
+Retained = 0
+ThreadPerObject = 0
+MaxNumberOfThreads = 1
+
+[MS Transaction Server]
+AutoRefresh = 1
+
+[VB Decompiler]
+Build = 12.4.8958.23379
+Date = 28/10/2024
+
